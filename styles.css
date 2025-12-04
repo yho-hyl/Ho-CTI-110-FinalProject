@@ -1,0 +1,79 @@
+
+/*          COLOR
+- Purple 100: #dacffc light
+- Purple 500: #7650dc dark
+
+- Yellow 100: #f9eee1 light
+- Yellow 500: #ffcb6b dark
+
+- White: #ffffff
+- Black: #121212
+ */
+
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 30px;
+}
+    
+.div1 {
+    grid-row: span 3 / span 3;
+    background:#7650dc ;
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    background:#7650dc ;
+}
+
+.div3 {
+    grid-row: span 3 / span 3;
+    grid-column-start: 1;
+    grid-row-start: 4;
+    background:#7650dc ;
+}
+
+.div4 {
+    grid-row: span 4 / span 4;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    background:#7650dc ;
+}
+
+.div5 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    background:#7650dc ;
+}
+
+.div6 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    background:#7650dc ;
+}
+
+.div7 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 5;
+    background:#7650dc ;
+}
+
+.div8 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 5;
+    background:#7650dc ;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
