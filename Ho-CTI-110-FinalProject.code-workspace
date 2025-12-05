@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Downloads/bento-grid-main/bento-grid-main/design"
+		},
+		{
+			"path": "../../../Downloads/bento-grid-main/bento-grid-main/assets"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Ho-CTI-110-FinalProject"
+	}
+}
