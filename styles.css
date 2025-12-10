@@ -10,6 +10,12 @@
 - Black: #121212
  */
 
+@font-face {
+    font-family: DMSans-Regular;
+    src: url(assets/fonts/static/DMSans-Regular.ttf);
+}
+
+
 
 
 body {
@@ -20,14 +26,20 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
     gap: 30px;
+        font-family: DMSans-Regular;
 }
     
 .div1 {
+    color: #ffffff;
+    font-size: 45px;
     grid-column: span 2 / span 2;
     grid-row: span 2 / span 2;
     grid-column-start: 2;
     grid-row-start: 1;
     background: #7650dc;
+    text-align: center;
+
+    
 }
 
 .div2 {
@@ -35,6 +47,9 @@ body {
     grid-column-start: 2;
     grid-row-start: 3;
     background: #ffffff;
+    font-size: 30px;
+    text-wrap: wrap;
+    padding-left: 20px;
 }
 
 .div3 {
@@ -42,6 +57,13 @@ body {
     grid-column-start: 3;
     grid-row-start: 3;
     background: #ffcb6b;
+    font-size: 30px;
+    text-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+    padding-right: 20px;
+
 }
 
 .div4 {
