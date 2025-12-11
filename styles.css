@@ -12,9 +12,18 @@
 
 @font-face {
     font-family: DMSans-Regular;
-    src: url(assets/fonts/static/DMSans-Regular.ttf);
+    src: url(assets/fonts/DMSans-VariableFont_opsz,wght.ttf);
 }
 
+
+
+/* @media  CSS*/
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 50%;
+    }
+}
 
 
 
@@ -26,7 +35,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
     gap: 30px;
-        font-family: DMSans-Regular;
+    
 }
     
 .div1 {
@@ -47,7 +56,7 @@ body {
     grid-column-start: 2;
     grid-row-start: 3;
     background: #ffffff;
-    font-size: 30px;
+    font-size: 35px;
     text-wrap: wrap;
     padding-left: 20px;
 }
@@ -63,6 +72,7 @@ body {
     padding-right: 20px;
     overflow: hidden;
     padding-right: 20px;
+    padding-left: 20px;
 
 }
 
@@ -71,6 +81,17 @@ body {
     grid-column-start: 4;
     grid-row-start: 1;
     background: #dacffc;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.tt{
+    font-size: 40px;
+}
+
+.Optimize{
+    font-size: 32px;
+    font-weight: lighter;
 }
 
 .div5 {
@@ -79,6 +100,16 @@ body {
     grid-column-start: 3;
     grid-row-start: 5;
     background: #7650dc;
+    padding: 20px;
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+}
+
+.Grow{
+    justify-content: center;
+    flex:1;
+    font-size: 46px;
 }
 
 .div6 {
@@ -86,6 +117,8 @@ body {
     grid-column-start: 2;
     grid-row-start: 5;
     background: #ffffff;
+    padding-left: 20px;
+
 }
 
 .div7 {
@@ -93,6 +126,13 @@ body {
     grid-column-start: 1;
     grid-row-start: 1;
     background: #f9eee1;
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: DMSans-Regular;
+}
+
+.CP{
+    margin-top: 25px;
 }
 
 .div8 {
@@ -100,9 +140,18 @@ body {
     grid-column-start: 1;
     grid-row-start: 4;
     background: #ffcb6b;
+    padding-left: 20px;
+    align-items: center;
+    font-size: 40px;
+    text-wrap: wrap;
 }
         
-
+.cropping{
+    height: min(8.4375rem);
+    object-fit: cover;
+    object-position: 30% 0%;
+    margin-top: 50px;
+} 
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
