@@ -13,8 +13,18 @@
 @font-face {
     font-family: DMSans-Regular;
     src: url(assets/fonts/DMSans-VariableFont_opsz,wght.ttf);
+    src: url(assets/fonts/DMSans-VariableFont_opsz,wght.ttf);
 }
 
+
+
+/* @media  CSS*/
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 50%;
+    }
+}
 
 
 
@@ -26,6 +36,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
     gap: 30px;
+    
     
 }
     
@@ -48,6 +59,7 @@ body {
     grid-row-start: 3;
     background: #ffffff;
     font-size: 35px;
+    font-size: 35px;
     text-wrap: wrap;
     padding-left: 20px;
 }
@@ -64,6 +76,7 @@ body {
     overflow: hidden;
     padding-right: 20px;
     padding-left: 20px;
+    padding-left: 20px;
 
 }
 
@@ -74,7 +87,15 @@ body {
     background: #dacffc;
     padding-left: 20px;
     font-size: 15px;
+}
 
+.tt{
+    font-size: 40px;
+}
+
+.Optimize{
+    font-size: 32px;
+    font-weight: lighter;
 }
 
 .div5 {
@@ -83,10 +104,16 @@ body {
     grid-column-start: 3;
     grid-row-start: 5;
     background: #7650dc;
-    padding-left: 20px;
+    padding: 20px;
     color: #ffffff;
     align-items: center;
-    
+    display: flex;
+}
+
+.Grow{
+    justify-content: center;
+    flex:1;
+    font-size: 46px;
 }
 
 .div6 {
@@ -94,6 +121,8 @@ body {
     grid-column-start: 2;
     grid-row-start: 5;
     background: #ffffff;
+    padding-left: 20px;
+
     padding-left: 20px;
 
 }
@@ -108,6 +137,10 @@ body {
     font-family: DMSans-Regular;
 }
 
+.CP{
+    margin-top: 25px;
+}
+
 .div8 {
     grid-row: span 3 / span 3;
     grid-column-start: 1;
@@ -120,11 +153,10 @@ body {
 }
         
 .cropping{
-    align-self: self-end;
-    width: 100%;
-    height: 20%;
+    height: min(8.4375rem);
     object-fit: cover;
     object-position: 30% 0%;
+    margin-top: 50px;
 } 
 
 .attribution { font-size: 11px; text-align: center; }
